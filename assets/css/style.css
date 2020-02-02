@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,400,700i&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+/*HEADER*/
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(/assets/images/beef_burger.jpg);  /*source: cssgradient.io*/
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+      
+}
+
+.reward {                       
+    text-align: center;
+    color: #fff;                        
+    padding: 350px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    
+    
+}
+
+/*NAVIGATION*/
+
+
+.main-nav {
+    list-style: none;
+    font-size: 110%;
+    letter-spacing: 4px;
+    line-height: 85px;
+    
+    
+}
+
+.main-nav li {
+    float: right;
+    margin-right: 30px;
+    font-weight: 100px;
+    
+}
+
+.main-nav li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/*LINKS*/
+
+.main-nav a:hover {
+    border-bottom: 2px solid #e67e22;
+}
+
+
+/*BUTTONS*/
+
+.booking {
+    border-radius: 20px;
+    background-color: #e67e22;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    width: 170px;
+    margin-left: 45%;
+    position: absolute;
+    top: 450px;
+    
+
+    
+}
+
+.booking:hover {
+    background-color: #e0e0e0;
+    color: #000;
+}
