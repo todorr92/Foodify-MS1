@@ -16,14 +16,14 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(/assets/images/beef_burger.jpg);  /*source: cssgradient.io*/
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 95vh;
     background-attachment: fixed;
       
 }
 
 .reward {                       
     text-align: center;
-    color: #fff;                        
+    color: #e0e0e0;                        
     padding: 350px;
     font-weight: 100;
     letter-spacing: 2px;
@@ -52,7 +52,7 @@ header {
 
 .main-nav li a {
     text-decoration: none;
-    color: #fff;
+    color: #e0e0e0;
 }
 
 /*LINKS*/
@@ -82,4 +82,71 @@ header {
 .booking:hover {
     background-color: #e0e0e0;
     color: #000;
+}
+
+
+/*ABOUT US*/
+
+.about {
+    width: 100%;
+   /* background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(/assets/images/team.jpg);    
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+    background-attachment: fixed;
+    color: #e0e0e0;
+    margin-top: 2px; */
+    
+}
+
+
+.about-us {
+     text-align: center;
+     margin: 30px 0;
+     padding: 10px;
+}
+
+.about-us h2 {
+    font-weight: 400;
+    letter-spacing: 4px;
+    margin-top: 40px;
+}
+
+.about-us p {
+    color: #818181;
+    margin-top: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #e67e22;
+    margin:auto;
+    margin-top: 15px;
+}
+
+/* .divider-qoutes {
+    width: 200px;
+    height: 1px;
+    border: 0;
+    background-color: #bdbdbd;
+    margin:auto;
+    margin-bottom: 10px; 
+    
+      
+}
+    */
+
+
+
+blockquote::before {
+    content: "\201C";
+}
+
+blockquote {
+    font-style: italic;
+    font-weight: 100;
 }
