@@ -16,7 +16,7 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(/assets/images/beef_burger.jpg);  /*source: cssgradient.io*/
     background-size: cover;
     background-position: center;
-    height: 95vh;
+    height: 100vh;
     background-attachment: fixed;
       
 }
@@ -24,7 +24,7 @@ header {
 .reward {                       
     text-align: center;
     color: #e0e0e0;                        
-    padding: 350px;
+    padding: 400px;
     font-weight: 100;
     letter-spacing: 2px;
     
@@ -73,7 +73,7 @@ header {
     width: 170px;
     margin-left: 45%;
     position: absolute;
-    top: 450px;
+    top: 500px;
     
 
     
@@ -88,14 +88,9 @@ header {
 /*ABOUT US*/
 
 .about {
+    
     width: 100%;
-   /* background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(/assets/images/team.jpg);    
-    background-size: cover;
-    background-position: center;
-    height: 95vh;
-    background-attachment: fixed;
-    color: #e0e0e0;
-    margin-top: 2px; */
+    
     
 }
 
@@ -104,7 +99,11 @@ header {
      text-align: center;
      margin: 30px 0;
      padding: 10px;
+     
+     
 }
+
+
 
 .about-us h2 {
     font-weight: 400;
@@ -128,25 +127,45 @@ header {
     margin-top: 15px;
 }
 
-/* .divider-qoutes {
-    width: 200px;
-    height: 1px;
-    border: 0;
-    background-color: #bdbdbd;
-    margin:auto;
-    margin-bottom: 10px; 
-    
-      
+cite img {
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
 }
-    */
 
 
 
 blockquote::before {
-    content: "\201C";
+    content: "\201C";  /*quotation source: https://www.w3schools.com/cssref/pr_gen_quotes.asp*/
 }
 
 blockquote {
     font-style: italic;
     font-weight: 100;
+}
+
+
+/*FOOTER*/
+
+footer {
+    background-color: #3f3f3f;
+    padding: 20px;
+    color: #818181;
+    width: 100%;
+}
+
+
+footer p {
+    text-align: center;
+}
+
+.social {
+    text-align: center;
+}
+
+.social-links li {
+    display: inline-block;
+    float: right;
+    list-style-type: none;
 }
