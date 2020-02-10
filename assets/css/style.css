@@ -164,8 +164,32 @@ footer p {
     text-align: center;
 }
 
-.social-links li {
-    display: inline-block;
-    float: right;
-    list-style-type: none;
+.social-links {
+    text-align: center;
 }
+
+.social-links li {
+    display: inline;
+    font-size: 50px;
+    
+}
+
+.social-links li a i {
+    color: #e67e22;
+}
+
+.fa-tripadvisor:hover {
+    color: #00af87;
+} 
+
+.fa-instagram:hover {
+    color: #833AB4;
+} 
+
+.fa-twitter:hover {
+    color: #1da1f2;
+} 
+
+.fa-facebook:hover {
+    color: #3b5998;
+} 
