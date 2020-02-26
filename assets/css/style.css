@@ -43,13 +43,11 @@ header {
 /*NAVIGATION*/
 
 
-.main-nav {
+ .main-nav {
     list-style: none;
     font-size: 110%;
     letter-spacing: 4px;
     line-height: 85px;
-    
-    
 }
 
 .main-nav li {
@@ -97,9 +95,9 @@ header {
 /*ABOUT US*/
 
 .about-us {
-     text-align: center;
-     margin: 30px 0;
      padding: 10px;
+     padding-bottom: 20px;
+     padding-top: 30px;
      
      
 }
@@ -151,18 +149,9 @@ blockquote {
     padding: 100px 0px 0px 0px;
 }
 
-.menus-header {
-    text-align: center;
+.menus-header, #starters, #mains, #desserts {
     list-style: none;
-}
-
-#starters, #mains, #desserts {
-    text-align: center;
-    list-style: none;
-}
-
-.menus-price {
-    text-align: center; 
+    padding-top: 30px;
 }
 
 
@@ -171,10 +160,16 @@ blockquote {
 
 /*CONTACT US*/
 
+
 .center-form {
     padding-top: 10px;
     margin: 0 auto;
     max-width: 70%;
+}
+
+.contact-us-header {
+    padding-bottom: 5px;
+    margin-top: 30px;
 }
 
 button[type="submit"] {
