@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:100,400,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Exo:400,500|Lato:100,400,700&display=swap');
 
 * {
     margin: 0;
@@ -7,7 +7,7 @@
 }
 
 html, body {
-    font-family: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 /*USED OFTEN*/
@@ -155,18 +155,43 @@ blockquote {
 
 /*MENUS*/
 
+.menus {
+    background-image: linear-gradient(rgba(83, 83, 83, 0.7), rgba(83, 83, 83, 0.7)), url(/assets/images/menus-background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    color: #e0e0e0;
+    
+
+}
+/*
 .menus-container {
     padding: 100px 0px 0px 0px;
 }
-
+*/
 .menus-header, #starters, #mains, #desserts {
     list-style: none;
     padding-top: 30px;
 }
 
+.menus h5 {
+    border-bottom: 2px solid #e67e22;
+    margin-top: 25px;
+
+
+}
+
+.menus p {
+    font-size: 12px;
+}
+
+#starters, #mains, #desserts {
+    font-family: "Exo";
+}
+
 
 /*GALLERY*/
-
 
 /*CONTACT US*/
 
