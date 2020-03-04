@@ -175,11 +175,8 @@ blockquote {
     padding-top: 30px;
 }
 
-.menus h5 {
-    border-bottom: 2px solid #e67e22;
-    margin-top: 25px;
-
-
+.menus li {
+    font-weight: 400;
 }
 
 .menus p {
@@ -192,6 +189,7 @@ blockquote {
 
 
 /*GALLERY*/
+
 
 /*CONTACT US*/
 
