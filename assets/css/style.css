@@ -6,6 +6,10 @@
     border: 0;
 }
 
+html {
+   scroll-behavior: smooth;
+}
+
 html, body {
     font-family: 'Exo', sans-serif;
 }
@@ -25,7 +29,7 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(/assets/images/beef_burger.jpg);  /*source: cssgradient.io*/
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 100vh; 
     background-attachment: fixed;
       
 }
@@ -63,23 +67,13 @@ header {
 }
 
 .main-nav li {
-    float: right;
-    margin-right: 30px;
     font-weight: 100px;
     
 }
 
-.main-nav li a {
-    text-decoration: none;
-    color: #e0e0e0;
+.navbar-nav li a:hover {
+    color: #e67e22;
 }
-
-/*LINKS*/
-
-.main-nav a:hover {
-    border-bottom: 2px solid #e67e22;
-}
-
 
 /*BUTTONS*/
 
