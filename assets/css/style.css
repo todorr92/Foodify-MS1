@@ -59,20 +59,18 @@ header {
 
 
  .main-nav {
-    list-style: none;
     font-size: 110%;
     letter-spacing: 4px;
-    line-height: 85px;
     margin-bottom: 0;
+    overflow: hidden;
 }
 
-.main-nav li {
-    font-weight: 100px;
-    
+.fixed-top {
+    transition: 0.4s;
 }
 
-.navbar-nav li a:hover {
-    color: #e67e22;
+.main-nav .navbar-nav li a:hover {
+    border-bottom: 2px solid #e67e22;
 }
 
 /*BUTTONS*/
@@ -305,7 +303,7 @@ footer p {
 
 /*Large devices (desktops, 992px and up)*/
 
-@media (max-width: 1295px) {
+@media (max-width: 1295px) { /*breakpoint customized*/
 
     .menus {
         height: 180vh;
@@ -315,10 +313,19 @@ footer p {
 
 /*Medium devices (tablets, 768px and up)*/
 
-@media (min-width: 768px) {
+@media (max-width: 992px) {  /*breakpoint customized*/
     .customer {
         padding-top: 3rem;
+    }
+
+    .main-nav {
+        line-height: 20px;
+    }
+
+    .reward, .header-name {
+        
     }
 }
 
 /*Small devices (landscape phones, 576px and up*/
+
