@@ -1,334 +1,246 @@
 @import url('https://fonts.googleapis.com/css?family=Exo:400,500|Lato:100,400,700&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
+ * {
+     margin: 0;
+     padding: 0;
+     border: 0;
 }
-
-html {
-   scroll-behavior: smooth;
+ html {
+     scroll-behavior: smooth;
 }
-
-html, body {
-    font-family: 'Exo', sans-serif;
+ html, body {
+     font-family: 'Exo', sans-serif;
 }
-
 /*USED OFTEN*/
-
-h1, h2, h3 {
-    font-weight: 400;
-    letter-spacing: 4px;
+ h1, h2, h3 {
+     font-weight: 400;
+     letter-spacing: 4px;
 }
-
-
-
 /*HEADER*/
-
-header {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))),url(/assets/images/beef_burger.jpg);
-    background-image: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(/assets/images/beef_burger.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(/assets/images/beef_burger.jpg);  /*source: cssgradient.io*/
-    background-size: cover;
-    background-position: center;
-    height: 100vh; 
-    background-attachment: fixed;
-      
+ header {
+     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))),url(/assets/images/beef_burger.jpg);
+     background-image: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(/assets/images/beef_burger.jpg);
+     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(/assets/images/beef_burger.jpg);
+    /*source: cssgradient.io*/
+     background-size: cover;
+     background-position: center;
+     height: 100vh;
+     background-attachment: fixed;
 }
-
-
-
-.header-name {
-    color:#e0e0e0;                        
-    font-weight: 100;
-    letter-spacing: 6px;
-    font-size: 50px;
-
+ .header-name {
+     color:#e0e0e0;
+     font-weight: 100;
+     letter-spacing: 6px;
+     font-size: 50px;
 }
-
-.header-name a {
-    text-decoration: none;
-    color: #e0e0e0;
+ .header-name a {
+     text-decoration: none;
+     color: #e0e0e0;
 }
-
-.reward {                       
-    color: #e0e0e0;                        
-    font-weight: 100;
-    letter-spacing: 2px;
+ .reward {
+     color: #e0e0e0;
+     font-weight: 100;
+     letter-spacing: 2px;
 }
-
 /*NAVIGATION*/
-
-
  .main-nav {
-    font-size: 110%;
-    letter-spacing: 4px;
-    margin-bottom: 0;
-    overflow: hidden;
+     font-size: 110%;
+     letter-spacing: 4px;
+     margin-bottom: 0;
+     overflow: hidden;
 }
-
-.fixed-top {
-    -webkit-transition: 0.4s;
-    -o-transition: 0.4s;
-    transition: 0.4s;
+ .fixed-top {
+     -webkit-transition: 0.4s;
+     -o-transition: 0.4s;
+     transition: 0.4s;
 }
-
-.main-nav .navbar-nav li a:hover {
-    border-bottom: 2px solid #e67e22;
+ .main-nav .navbar-nav li a:hover {
+     border-bottom: 2px solid #e67e22;
 }
-
 /*BUTTONS*/
-
-.booking {
-    border-radius: 20px;
-    background-color: #e67e22;
-    color: #fff;
-    border: none;
-    padding: 10px 30px;
-    width: 170px;
-   
+ .booking {
+     border-radius: 20px;
+     background-color: #e67e22;
+     color: #fff;
+     border: none;
+     padding: 10px 30px;
+     width: 170px;
 }
-
-.booking:hover {
-    background-color: #e0e0e0;
-    color: #000;
+ .booking:hover {
+     background-color: #e0e0e0;
+     color: #000;
 }
-
-
 /*ABOUT US*/
-
-.about-us {
+ .about-us {
      padding: 10px;
      padding-bottom: 20px;
      padding-top: 30px;
      font-family: "Exo", sans-serif;
-         
 }
-
-.about-us h1 {
-    font-weight: 400;
-    margin-top: 30px;
-    letter-spacing: 1px;
+ .about-us h1 {
+     font-weight: 400;
+     margin-top: 30px;
+     letter-spacing: 1px;
 }
-
-.about-us p {
-    color: #818181;
-    margin-top: 30px;
-    font-weight: bold;
-    letter-spacing: 2px;
+ .about-us p {
+     color: #818181;
+     margin-top: 30px;
+     font-weight: bold;
+     letter-spacing: 2px;
 }
-
-.divider {
-    width: 75px;
-    height: 5px;
-    border: 0;
-    background-color: #e67e22;
-    margin:auto;
-    margin-top: 15px;
+ .divider {
+     width: 75px;
+     height: 5px;
+     border: 0;
+     background-color: #e67e22;
+     margin:auto;
+     margin-top: 15px;
 }
-
-
-cite img {
-    height: 80px;
-    border-radius: 50%;
-    vertical-align: middle;
+ cite img {
+     height: 80px;
+     border-radius: 50%;
+     vertical-align: middle;
 }
-
-
-
-blockquote::before {
-    content: "\201C";  /*quotation source: https://www.w3schools.com/cssref/pr_gen_quotes.asp*/
+ blockquote::before {
+     content: "\201C";
+    /*quotation source: https://www.w3schools.com/cssref/pr_gen_quotes.asp*/
 }
-
-blockquote {
-    font-style: italic;
-    font-weight: 100;
+ blockquote {
+     font-style: italic;
+     font-weight: 100;
 }
-
 /*MENUS*/
-
-.menus {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(83, 83, 83, 0.7)), to(rgba(83, 83, 83, 0.7))), url(/assets/images/menus-background.jpg);
-    background-image: -o-linear-gradient(rgba(83, 83, 83, 0.7), rgba(83, 83, 83, 0.7)), url(/assets/images/menus-background.jpg);
-    background-image: linear-gradient(rgba(83, 83, 83, 0.7), rgba(83, 83, 83, 0.7)), url(/assets/images/menus-background.jpg);
-    background-size: cover;
-    background-position: center;
-    height: auto;
-    background-attachment: fixed;
-    color: #e0e0e0;
-    
-
+ .menus {
+     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(83, 83, 83, 0.7)), to(rgba(83, 83, 83, 0.7))), url(/assets/images/menus-background.jpg);
+     background-image: -o-linear-gradient(rgba(83, 83, 83, 0.7), rgba(83, 83, 83, 0.7)), url(/assets/images/menus-background.jpg);
+     background-image: linear-gradient(rgba(83, 83, 83, 0.7), rgba(83, 83, 83, 0.7)), url(/assets/images/menus-background.jpg);
+     background-size: cover;
+     background-position: center;
+     height: auto;
+     background-attachment: fixed;
+     color: #e0e0e0;
 }
-
-
-.menus-header, #starters, #mains, #desserts {
-    list-style: none;
-    padding-top: 30px;
+ .menus-header, #starters, #mains, #desserts {
+     list-style: none;
+     padding-top: 30px;
 }
-
-.menus li {
-    font-weight: 400;
+ .menus li {
+     font-weight: 400;
 }
-
-.menus p {
-    font-size: 12px;
+ .menus p {
+     font-size: 12px;
 }
-
-.menus .menu-price {
-    font-size: 20px;
+ .menus .menu-price {
+     font-size: 20px;
 }
-
-
-#starters, #mains, #desserts {
-    font-family: "Exo";
+ #starters, #mains, #desserts {
+     font-family: "Exo";
 }
-
-
-
 /*GALLERY*/
-
-.gallery .container-fluid, .gallery .col-3 {
-    padding-right: 0;
-    padding-left: 0;
+ .gallery .container-fluid, .gallery .col-3 {
+     padding-right: 0;
+     padding-left: 0;
 }
-
-.gallery figure {
-    margin: 0;
+ .gallery figure {
+     margin: 0;
 }
-
-.gallery .row {
-    margin-right: 0;
-    margin-left: 0;
+ .gallery .row {
+     margin-right: 0;
+     margin-left: 0;
 }
-
-.meal-photo img 
-{
-    opacity: 1;
-    height: auto;
-    width: 100%;
-    height: auto;
-    -webkit-transform: scale(1.15);
-    -ms-transform: scale(1);
-        transform: scale(1);
-    -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
-    transition: opacity 0.5s, -webkit-transform 0.5s;
-    -o-transition: transform 0.5s, opacity 0.5s;
-    transition: transform 0.5s, opacity 0.5s;
-    transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
+ .meal-photo img {
+     opacity: 1;
+     height: auto;
+     width: 100%;
+     height: auto;
+     -webkit-transform: scale(1.15);
+     -ms-transform: scale(1);
+     transform: scale(1);
+     -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+     transition: opacity 0.5s, -webkit-transform 0.5s;
+     -o-transition: transform 0.5s, opacity 0.5s;
+     transition: transform 0.5s, opacity 0.5s;
+     transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
 }
-
-.meal-photo img:hover 
-{   
-    -webkit-transform: scale(1.03);
-    -ms-transform: scale(1.03);
-        transform: scale(1.03);
-    
+ .meal-photo img:hover {
+     -webkit-transform: scale(1.03);
+     -ms-transform: scale(1.03);
+     transform: scale(1.03);
 }
-
 /*CONTACT US*/
-
-
-.center-form {
-    padding-top: 10px;
-    margin: 0 auto;
-    max-width: 70%;
+ .center-form {
+     padding-top: 10px;
+     margin: 0 auto;
+     max-width: 70%;
 }
-
-.contact-us-header {
-    padding-bottom: 5px;
-    margin-top: 30px;
+ .contact-us-header {
+     padding-bottom: 5px;
+     margin-top: 30px;
 }
-
-button[type="submit"] {
-    margin-top: 15px;
-    margin-bottom: 20px;
-    color: #fafafa;
-    background-color: #e67e22;
+ button[type="submit"] {
+     margin-top: 15px;
+     margin-bottom: 20px;
+     color: #fafafa;
+     background-color: #e67e22;
 }
-
-
 /*FOOTER*/
-
-footer {
-    background-color: #3f3f3f;
-    padding: 20px;
-    color: #818181;
-    width: 100%;
+ footer {
+     background-color: #3f3f3f;
+     padding: 20px;
+     color: #818181;
+     width: 100%;
 }
-
-
-footer p {
-    text-align: center;
+ footer p {
+     text-align: center;
 }
-
-.social {
-    text-align: center;
+ .social {
+     text-align: center;
 }
-
-.social-links {
-    text-align: center;
+ .social-links {
+     text-align: center;
 }
-
-.social-links li {
-    display: inline;
-    font-size: 50px;
-    
+ .social-links li {
+     display: inline;
+     font-size: 50px;
 }
-
-.social-links li a i {
-    color: #e67e22;
-    padding: 0 10px;
+ .social-links li a i {
+     color: #e67e22;
+     padding: 0 10px;
 }
-
-.fa-tripadvisor:hover {
-    color: #00af87;
-} 
-
-.fa-instagram:hover {
-    color: #833AB4;
-} 
-
-.fa-twitter:hover {
-    color: #1da1f2;
-} 
-
-.fa-facebook:hover {
-    color: #3b5998;
-} 
-
+ .fa-tripadvisor:hover {
+     color: #00af87;
+}
+ .fa-instagram:hover {
+     color: #833AB4;
+}
+ .fa-twitter:hover {
+     color: #1da1f2;
+}
+ .fa-facebook:hover {
+     color: #3b5998;
+}
 /*MEDIA QUERIES*/
-
 /*Extra large devices (large desktops, 1200px and up)*/
-
-@media (min-width: 1600px) 
-{ 
-    .customer {
-        padding-top: 3rem;
+ @media (min-width: 1600px) {
+     .customer {
+         padding-top: 3rem;
     }
-
-    .menus {
-        height: 150vh;
+     .menus {
+         height: 150vh;
     }
 }
-
 /*Large devices (desktops, 992px and up)*/
-
-@media (max-width: 1200px) { /*breakpoint customized*/
-
-    
+ @media (max-width: 1200px) {
+    /*breakpoint customized*/
 }
-
 /*Medium devices (tablets, 768px and up)*/
-
-@media (max-width: 992px) {  /*breakpoint customized*/
-    .customer {
-        padding-top: 3rem;
+ @media (max-width: 992px) {
+    /*breakpoint customized*/
+     .customer {
+         padding-top: 3rem;
     }
-
-    .main-nav {
-        line-height: 20px;
+     .main-nav {
+         line-height: 20px;
     }
-
 }
-
 /*Small devices (landscape phones, 576px and up*/
+ 
