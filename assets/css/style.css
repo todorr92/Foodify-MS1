@@ -244,3 +244,9 @@
 }
 /*Small devices (landscape phones, 576px and up*/
  
+ @media (max-width: 545px) {
+     .header-name {
+         margin-top: 30px;
+     }
+     
+ }
