@@ -26,6 +26,8 @@ h1, h2, h3 {
 /*HEADER*/
 
 header {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))),url(/assets/images/beef_burger.jpg);
+    background-image: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(/assets/images/beef_burger.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(/assets/images/beef_burger.jpg);  /*source: cssgradient.io*/
     background-size: cover;
     background-position: center;
@@ -66,6 +68,8 @@ header {
 }
 
 .fixed-top {
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
     transition: 0.4s;
 }
 
@@ -144,10 +148,12 @@ blockquote {
 /*MENUS*/
 
 .menus {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(83, 83, 83, 0.7)), to(rgba(83, 83, 83, 0.7))), url(/assets/images/menus-background.jpg);
+    background-image: -o-linear-gradient(rgba(83, 83, 83, 0.7), rgba(83, 83, 83, 0.7)), url(/assets/images/menus-background.jpg);
     background-image: linear-gradient(rgba(83, 83, 83, 0.7), rgba(83, 83, 83, 0.7)), url(/assets/images/menus-background.jpg);
     background-size: cover;
     background-position: center;
-    height: 180vh;
+    height: auto;
     background-attachment: fixed;
     color: #e0e0e0;
     
@@ -171,6 +177,7 @@ blockquote {
 .menus .menu-price {
     font-size: 20px;
 }
+
 
 #starters, #mains, #desserts {
     font-family: "Exo";
@@ -201,9 +208,11 @@ blockquote {
     width: 100%;
     height: auto;
     -webkit-transform: scale(1.15);
-    transform: scale(1);
+    -ms-transform: scale(1);
+        transform: scale(1);
     -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
     transition: opacity 0.5s, -webkit-transform 0.5s;
+    -o-transition: transform 0.5s, opacity 0.5s;
     transition: transform 0.5s, opacity 0.5s;
     transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
 }
@@ -211,7 +220,8 @@ blockquote {
 .meal-photo img:hover 
 {   
     -webkit-transform: scale(1.03);
-    transform: scale(1.03);
+    -ms-transform: scale(1.03);
+        transform: scale(1.03);
     
 }
 
@@ -303,11 +313,8 @@ footer p {
 
 /*Large devices (desktops, 992px and up)*/
 
-@media (max-width: 1295px) { /*breakpoint customized*/
+@media (max-width: 1200px) { /*breakpoint customized*/
 
-    .menus {
-        height: 180vh;
-    }
     
 }
 
@@ -322,10 +329,6 @@ footer p {
         line-height: 20px;
     }
 
-    .reward, .header-name {
-        
-    }
 }
 
 /*Small devices (landscape phones, 576px and up*/
-
