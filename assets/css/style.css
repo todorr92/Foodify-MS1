@@ -17,9 +17,9 @@
 }
 /*HEADER*/
  header {
-     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))),url(/assets/images/beef_burger.jpg);
-     background-image: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(/assets/images/beef_burger.jpg);
-     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(/assets/images/beef_burger.jpg);
+     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))),url(../images/beef_burger.jpg);
+     background-image: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../images/beef_burger.jpg);
+     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../images/beef_burger.jpg);
     /*source: cssgradient.io*/
      background-size: cover;
      background-position: center;
@@ -110,9 +110,9 @@
 }
 /*MENUS*/
  .menus {
-     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(83, 83, 83, 0.7)), to(rgba(83, 83, 83, 0.7))), url(/assets/images/menus-background.jpg);
-     background-image: -o-linear-gradient(rgba(83, 83, 83, 0.7), rgba(83, 83, 83, 0.7)), url(/assets/images/menus-background.jpg);
-     background-image: linear-gradient(rgba(83, 83, 83, 0.7), rgba(83, 83, 83, 0.7)), url(/assets/images/menus-background.jpg);
+     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(83, 83, 83, 0.7)), to(rgba(83, 83, 83, 0.7))), url(../images/menus-background.jpg);
+     background-image: -o-linear-gradient(rgba(83, 83, 83, 0.7), rgba(83, 83, 83, 0.7)), url(../images/menus-background.jpg);
+     background-image: linear-gradient(rgba(83, 83, 83, 0.7), rgba(83, 83, 83, 0.7)), url(../images/menus-background.jpg);
      background-size: cover;
      background-position: center;
      height: auto;
