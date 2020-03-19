@@ -221,6 +221,7 @@
      color: #3b5998;
 }
 /*MEDIA QUERIES*/
+
 /*Extra large devices (large desktops, 1200px and up)*/
  @media (min-width: 1600px) {
      .customer {
@@ -245,7 +246,14 @@
 /*Small devices (landscape phones, 576px and up*/
  
  @media (max-width: 545px) {
-     .header-name {
+    /* .header-name {
          margin-top: 30px;
      } 
+     */
+     .social-links li {
+         font-size: 10px;
+     }
  }
+ }
+
+
