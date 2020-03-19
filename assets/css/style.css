@@ -30,7 +30,7 @@
      color:#e0e0e0;
      font-weight: 100;
      letter-spacing: 6px;
-     font-size: 50px;
+     font-size: 90px;
 }
  .header-name a {
      text-decoration: none;
@@ -99,6 +99,7 @@
      height: 80px;
      border-radius: 50%;
      vertical-align: middle;
+     margin-bottom: 1rem;
 }
  blockquote::before {
      content: "\201C";
@@ -233,6 +234,11 @@
     /*breakpoint customized*/
     .customer {
          padding-top: 3rem;
+ }
+ @media (max-width: 1200px) {
+    /*breakpoint customized*/
+    blockquote {
+         padding-top: 5rem;
  }
 /*Medium devices (tablets, 768px and up)*/
  @media (max-width: 992px) {
