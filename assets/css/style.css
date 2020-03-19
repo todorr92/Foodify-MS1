@@ -126,9 +126,10 @@
 }
  .menus li {
      font-weight: 400;
+     font-size: 20px;
 }
  .menus p {
-     font-size: 12px;
+     font-size: 15px;
 }
  .menus .menu-price {
      font-size: 20px;
@@ -225,9 +226,6 @@
      .customer {
          padding-top: 3rem;
     }
-     .menus {
-         height: 150vh;
-    }
 }
 /*Large devices (desktops, 992px and up)*/
  @media (min-width: 1200px) {
@@ -235,11 +233,7 @@
     .customer {
          padding-top: 3rem;
  }
- @media (max-width: 1200px) {
-    /*breakpoint customized*/
-    blockquote {
-         padding-top: 5rem;
- }
+ 
 /*Medium devices (tablets, 768px and up)*/
  @media (max-width: 992px) {
     /*breakpoint customized*/
@@ -253,6 +247,5 @@
  @media (max-width: 545px) {
      .header-name {
          margin-top: 30px;
-     }
-     
+     } 
  }
