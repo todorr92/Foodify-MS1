@@ -229,19 +229,19 @@
     }
 }
 /*Large devices (desktops, 992px and up)*/
- @media (max-width: 1200px) {
+ @media (min-width: 1200px) {
     /*breakpoint customized*/
-}
+    .customer {
+         padding-top: 3rem;
+ }
 /*Medium devices (tablets, 768px and up)*/
  @media (max-width: 992px) {
     /*breakpoint customized*/
-     .customer {
-         padding-top: 3rem;
-    }
      .main-nav {
          line-height: 20px;
     }
 }
+
 /*Small devices (landscape phones, 576px and up*/
  
  @media (max-width: 545px) {
