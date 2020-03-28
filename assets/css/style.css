@@ -281,12 +281,6 @@
     .center-form {
          max-width: 70%;
      }
-     .menu-price-lunch {
-        margin-top: 3.5rem;
-     }
-     .menu-price-dinner {
-         margin-top: 2.5rem;
-     }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
     .booking 

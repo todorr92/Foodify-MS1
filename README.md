@@ -24,14 +24,16 @@
 
 ###### During the design process sitting with the client we drew up wireframes using Balsamiq
 
-##Desktop
-##Tablet
-##Mobile
+## Desktop
 
-#Featueres
+## Tablet
+
+## Mobile
+
+# Featueres
 
 ## About Us
-######A brief introduction to the restaurant, it’s location, staff and customer reviews
+###### A brief introduction to the restaurant, it’s location, staff and customer reviews
 ## Menus
 ###### Just a quick insight on what is on our menus and ingredients used
 ## Gallery
@@ -43,7 +45,7 @@
 ###### Once restaurant is added on Google Maps, add a map on website
 ###### Add ResDiary for easier booking options
 
-#Technologies Used:
+# Technologies Used:
 
 * HTML & CSS programming languages
 * (https://getbootstrap.com/ "Bootstrap") - to easily adapt the website to be responsive for all users
@@ -53,6 +55,6 @@
 * (https://popper.js.org/ "Popper.js") - Javascript needed for navbar
 * (https://github.com/ "GitHub") - to host the repositories for this project and the live website preview
 
-#Testing
+# Testing
 
 
