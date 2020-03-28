@@ -267,7 +267,7 @@
      }
 }
 /*Large devices (desktops, 992px and up)*/
- @media (min-width: 1200px) {
+@media (min-width: 1200px) {
     /*breakpoint customized*/
     .customer {
          padding-top: 3rem;
@@ -281,11 +281,24 @@
     .center-form {
          max-width: 70%;
      }
+     .menu-price-lunch {
+        margin-top: 3.5rem;
+     }
+     .menu-price-dinner {
+         margin-top: 2.5rem;
+     }
 
 /*Extra large devices (large desktops, 1200px and up)*/
- @media (min-width: 1600px) {
+@media (min-width: 1600px) {
      .customer {
          padding-top: 3rem;
     }
-}
+    .menu-price-lunch {
+        margin-top: 0;
+     }
+     .menu-price-dinner {
+         margin-top: 0;
+     }
+
+ }
 }
