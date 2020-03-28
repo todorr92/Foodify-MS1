@@ -289,9 +289,8 @@
      }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-    .booking {
+    .booking 
         margin-right: 5rem;
-    }
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
