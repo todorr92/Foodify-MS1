@@ -289,6 +289,15 @@
          margin-top: 2.5rem;
      }
 
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  IE10+ .menu-price-lunch {
+        margin-top: 0;
+     }
+     .menu-price-dinner {
+         margin-top: 0;
+     } 
+}
+
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1600px) {
      .customer {
