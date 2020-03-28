@@ -57,4 +57,19 @@
 
 # Testing
 
+###### Testing was carried out using Google Chrome developer tools to insure website is responsive.
+###### Other tools used are:
+* W3C Markup Validation to validate HTML
+* W3C CSS Validation to validate CSS
+* Unicorn Revealer to check if any overflowing issues
+
+# Issues encountered
+
+###### When navbar was set to "sticky" big margin appeared on top of the site
+
+###### - Issue was resolved by removing line-height property previously set up for navbar elements
+
+###### Complete Menus section was not aligning properly due while checking responsiveness
+
+###### - Issue resolved by moving one collumn down
 
