@@ -288,18 +288,6 @@
          margin-top: 2.5rem;
      }
 
-@media (-ms-high-contrast: none), (-ms-high-contrast: active) { 
-     .menu-price-lunch {
-        margin-top: 0;
-     }
-     .menu-price-dinner {
-         margin-top: 0;
-     }
-     .booking {
-         margin-right: 5rem;
-     }
- 
-}
 
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1600px) {
