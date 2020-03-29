@@ -80,7 +80,7 @@
 
 #### Button "Book Now" was not centered in IE
 
-#### -
+#### - Issue resolved by adding d-block class in row where button was 
 
 ## Existing issues
 

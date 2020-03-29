@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Exo:400,500|Lato:100,400,700&display=swap');
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+ @import url('https://fonts.googleapis.com/css?family=Exo:400,500|Lato:100,400,700&display=swap');
  * {
      margin: 0;
      padding: 0;
@@ -18,8 +19,8 @@
 }
 /*HEADER*/
  header {
-     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))),url(../images/beef_burger.jpg);
      background-image: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../images/beef_burger.jpg);
+     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))),url(../images/beef_burger.jpg);
      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../images/beef_burger.jpg);
      background-size: cover;
      background-position: center;
@@ -110,8 +111,8 @@
 }
 /*MENUS*/
  .menus {
-     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(83, 83, 83, 0.7)), to(rgba(83, 83, 83, 0.7))), url(../images/menus-background.jpg);
      background-image: -o-linear-gradient(rgba(83, 83, 83, 0.7), rgba(83, 83, 83, 0.7)), url(../images/menus-background.jpg);
+     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(83, 83, 83, 0.7)), to(rgba(83, 83, 83, 0.7))), url(../images/menus-background.jpg);
      background-image: linear-gradient(rgba(83, 83, 83, 0.7), rgba(83, 83, 83, 0.7)), url(../images/menus-background.jpg);
      background-size: cover;
      background-position: center;
@@ -220,87 +221,81 @@
      color: #3b5998;
 }
 /*MEDIA QUERIES*/
-
 /*Small devices (landscape phones, 576px and up*/
-@media (min-width: 320px) {
+ @media (min-width: 320px) {
      .header-name {
          font-size: 50px;
          margin-top: 50px;
-     } 
+    }
      .reward {
          font-size: 20px;
          padding-bottom: 20px;
-     }
+    }
      .social-links li a {
          font-size: 30px;
-     }
+    }
      .reward-section {
-         margin-top: -5rem; 
-     }
+         margin-top: -5rem;
+    }
      .center-form {
          max-width: 100%;
-     }
- }
- 
+    }
+}
 /*Medium devices (tablets, 768px and up)*/
  @media (min-width: 600px) {
     /*breakpoint customized*/
-      .header-name {
-          font-size: 70px;
-      }
-      .reward {
-          font-size: 20px;
-      }
-      .social-links li a {
+     .header-name {
+         font-size: 70px;
+    }
+     .reward {
+         font-size: 20px;
+    }
+     .social-links li a {
          font-size: 50px;
-     }
+    }
      .center-form {
          max-width: 100%;
-     }
+    }
 }
-
-@media (min-width: 900px){
-    .center-form {
+ @media (min-width: 900px){
+     .center-form {
          max-width: 80%;
-     }
+    }
 }
 /*Large devices (desktops, 992px and up)*/
-@media (min-width: 1200px) {
+ @media (min-width: 1200px) {
     /*breakpoint customized*/
-    .customer {
-         padding-top: 3rem;
-     }
-     .header-name {
-          font-size: 90px;
-      }
-      .reward {
-          font-size: 25px;
-      }
-    .center-form {
-         max-width: 70%;
-     }
-
- @media (-ms-high-contrast: none), (-ms-high-contrast: active) {
-    .reward-section {
-        margin: 0;  
-    }
-    #booking {
-        margin-left: 54rem;
-    }
-        
-}
-
-/*Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1600px) {
      .customer {
          padding-top: 3rem;
     }
-    .menu-price-lunch {
-        margin-top: 0;
-     }
-     .menu-price-dinner {
-         margin-top: 0;
-     }
-     
- }
+     .header-name {
+         font-size: 90px;
+    }
+     .reward {
+         font-size: 25px;
+    }
+     .center-form {
+         max-width: 70%;
+    }
+    /* @media (-ms-high-contrast: none), (-ms-high-contrast: active) {
+         .reward-section {
+             margin: 0;
+        }
+         #booking {
+             margin-left: 54rem;
+        }
+         */
+    }
+    /*Extra large devices (large desktops, 1200px and up)*/
+     @media (min-width: 1600px) {
+         .customer {
+             padding-top: 3rem;
+        }
+         .menu-price-lunch {
+             margin-top: 0;
+        }
+         .menu-price-dinner {
+             margin-top: 0;
+        }
+    }
 }
