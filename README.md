@@ -1,5 +1,6 @@
 # Foodify
-### Live GitHub Pages Link: https://todorr92.github.io/Foodify-MS1/
+### [Live GitHub Pages Link](https://todorr92.github.io/Foodify-MS1/)
+### [GitHub repository Link](https://github.com/todorr92/Foodify-MS1) 
 ![](/wireframes/Mockup_Generator.png)
 
 ## Summary
@@ -33,13 +34,13 @@
 ![](/wireframes/Phone.png)
 ## Features
 
-## About Us
+### About Us
 #### A brief introduction to the restaurant, it’s location, staff and customer reviews
-## Menus
+### Menus
 #### Just a quick insight on what is on our menus and ingredients used
-## Gallery
+### Gallery
 #### A showcase on some meals we do
-## Reservations
+### Reservations
 #### A contact us form so the customers can contact us regarding possible reservations or if any questions should be asked
 
 ## Future Implementation
