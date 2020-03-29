@@ -280,7 +280,7 @@
          max-width: 70%;
      }
 
- @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+ @media (-ms-high-contrast: none), (-ms-high-contrast: active) {
     #booking {
         margin: 0;
         text-align: center;  
