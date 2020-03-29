@@ -21,7 +21,6 @@
      background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))),url(../images/beef_burger.jpg);
      background-image: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../images/beef_burger.jpg);
      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../images/beef_burger.jpg);
-    /*source: cssgradient.io*/
      background-size: cover;
      background-position: center;
      height: 100vh;
@@ -104,7 +103,6 @@
 }
  blockquote::before {
      content: "\201C";
-    /*quotation source: https://www.w3schools.com/cssref/pr_gen_quotes.asp*/
 }
  blockquote {
      font-style: italic;
