@@ -61,6 +61,7 @@
 ## Testing
 
 #### Testing was carried out using Google Chrome developer tools to insure website is responsive. Tested site in Firefox, Edge, Safari and IE
+#### Tested using Samsung Galaxy Edge 7, Samsung Galaxy Note 8, Ipad and Huawei P20 Lite
 #### Other tools used are:
 * [W3C Markup Validation](https://validator.w3.org/) - to validate HTML
 * [W3C CSS Validation](https://jigsaw.w3.org/css-validator/) - to validate CSS
