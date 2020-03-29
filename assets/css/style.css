@@ -26,6 +26,9 @@
      height: 100vh;
      background-attachment: fixed;
 }
+#booking {
+    overflow: hidden;
+}
  .header-name {
      color:#e0e0e0;
      font-weight: 100;
