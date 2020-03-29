@@ -1,17 +1,19 @@
 # Foodify
+### Live GitHub Pages Link: https://todorr92.github.io/Foodify-MS1/
 ![](/wireframes/Mockup_Generator.png)
 
-###### Foodify is a new startup restaraunt
+##Summary
+#### Foodify is still fairly new restaraunt, located in Phoenix Park, Dublin. Purpose of this website is to attract new customers by showing some of the meals in our gallery, menus and presenting potential customer with information about restaurant and team working in it. 
 
 ## UX
 
-#### As the restaraunt is newly established the main aim is to draw as much customers possible
+#### Foodify opened in late 2018 and hopes to expand in future on few more locations. It is important to visually express what they are doing to attract people to visit them and try the food for themselves.
 
 #### To help this website stand out from other restaraunts it needs to ensure it
 
-1. Is easy to use.
-2. Simple and appealing.
-3.  
+* Is easy to use.
+* Simple and appealing.
+* Straight to the point, does not overload visitor with too much text on it
 
 ## Client stories
 
@@ -24,11 +26,11 @@
 #### During the design process sitting with the client we drew up wireframes using [Balsamiq](https://balsamiq.com/)
 
 ## Desktop
-
+![](/wireframes/Desktop.png)
 ## Tablet
-
+![](/wireframes/Tablet.png)
 ## Mobile
-
+![](/wireframes/Phone.png)
 ## Features
 
 ## About Us
@@ -43,6 +45,7 @@
 ## Future Implementation
 #### Once restaurant is added on Google Maps, add a map on website
 #### Add ResDiary for easier booking options
+#### Expand Gallery section to show whole restaraunt
 
 ## Technologies Used:
 
