@@ -1,7 +1,6 @@
 # Foodify
-![alt text] [Mockup]
+(/wireframes/Mockup_Generator.png)
 
-[Mockup]: https://github.com/todorr92/Foodify-MS1/blob/master/wireframes/Mockup_Generator.png "Mockup"
 ###### Foodify is a new startup restaraunt
 
 ## UX
