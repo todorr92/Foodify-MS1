@@ -281,7 +281,7 @@
      }
 
  @media (-ms-high-contrast: none), (-ms-high-contrast: active) {
-    #booking {
+    .reward-section {
         margin: 0;
         text-align: center;  
     }
