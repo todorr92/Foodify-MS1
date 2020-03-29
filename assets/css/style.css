@@ -282,8 +282,10 @@
 
  @media (-ms-high-contrast: none), (-ms-high-contrast: active) {
     .reward-section {
-        margin: 0;
-        text-align: center;  
+        margin: 0;  
+    }
+    #booking {
+        margin-left: 54rem;
     }
         
 }
