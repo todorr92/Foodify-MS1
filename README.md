@@ -2,7 +2,7 @@
 ### Live GitHub Pages Link: https://todorr92.github.io/Foodify-MS1/
 ![](/wireframes/Mockup_Generator.png)
 
-##Summary
+## Summary
 #### Foodify is still fairly new restaraunt, located in Phoenix Park, Dublin. Purpose of this website is to attract new customers by showing some of the meals in our gallery, menus and presenting potential customer with information about restaurant and team working in it. 
 
 ## UX
@@ -59,7 +59,7 @@
 
 ## Testing
 
-#### Testing was carried out using Google Chrome developer tools to insure website is responsive.
+#### Testing was carried out using Google Chrome developer tools to insure website is responsive. Tested site in Firefox, Edge, Safari and IE
 #### Other tools used are:
 * [W3C Markup Validation](https://validator.w3.org/) - to validate HTML
 * [W3C CSS Validation](https://jigsaw.w3.org/css-validator/) - to validate CSS
@@ -77,7 +77,7 @@
 
 #### - Issue resolved by moving one collumn down
 
-#### Button "Book Now" was not centered IE
+#### Button "Book Now" was not centered in IE
 
 #### -
 
@@ -96,16 +96,15 @@
  5. Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
 
 ## Run this project locally
-#### Clone this project from GitHub:
+### Clone this project from GitHub:
 
-On GitHub, navigate to the main page of the repository.
-Under the repository name, click Clone or download.
-In the Clone with HTTPs section, copy the clone URL for the repository.
-In your local IDE open Git Bash.
-Change the current working directory to the location where you want the cloned directory to be made.
-Type git clone, and then paste the URL you copied in Step 3.
-Press Enter. Your local clone will be created.
-Further reading and troubleshooting on cloning a repository from GitHub here.
+1. Under the repository name, click "Clone or download".
+2. In the Clone with HTTPs section, copy the clone URL for the repository.
+3. In your local IDE open Git Bash.
+4. Change the current working directory to the location where you want the cloned directory to be made.
+5. Type git clone, and then paste the URL you copied in Step 3.
+6. Press Enter. Your local clone will be created.
+#### Click [here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) for further reading and troubleshooting on cloning a repository from GitHub.
 
 
 ## Credits
