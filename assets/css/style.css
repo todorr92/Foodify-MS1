@@ -23,11 +23,8 @@
      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../images/beef_burger.jpg);
      background-size: cover;
      background-position: center;
-     height: 100vh;
+     min-height: 100vh;
      background-attachment: fixed;
-}
-#booking {
-    overflow: hidden;
 }
  .header-name {
      color:#e0e0e0;
